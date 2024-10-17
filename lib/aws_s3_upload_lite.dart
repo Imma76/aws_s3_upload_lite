@@ -71,7 +71,7 @@ class AwsS3 {
       if (useSSL) {
         httpStr += 's';
       }
-      final endpoint = '$httpStr://$bucket.digitaloceanspaces.com';
+      final endpoint = '$httpStr://$region.digitaloceanspaces.com';
 
       String? uploadKey;
 
